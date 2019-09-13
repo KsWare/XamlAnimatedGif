@@ -15,7 +15,7 @@
     <releaseNotes>
         See version history on GitHub: https://github.com/KsWare/XamlAnimatedGif/wiki/Version-history
     </releaseNotes>
-    <tags>xaml animated gif wpf/tags>
+    <tags>xaml animated gif wpf</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="WindowsBase" targetFramework="net45" />
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net45" />
