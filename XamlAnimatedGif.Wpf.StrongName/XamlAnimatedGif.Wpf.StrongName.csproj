@@ -8,8 +8,8 @@
     <RootNamespace>XamlAnimatedGif</RootNamespace>
     <AssemblyName>XamlAnimatedGif</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <UseWPF>true</UseWPF>
+    <TargetFrameworks>net45;net47;net472;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <UseWPF>True</UseWPF>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
