@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlAnimatedGif.Wpf.StrongName", "XamlAnimatedGif.Wpf.StrongName.csproj", "{5ECDD8E1-E176-4D9F-9278-17A313A16CB2}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\XamlAnimatedGif.Shared\XamlAnimatedGif.Shared.projitems*{5ecdd8e1-e176-4d9f-9278-17a313a16cb2}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

@@ -1,38 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XamlAnimatedGif</RootNamespace>
-    <AssemblyName>XamlAnimatedGif</AssemblyName>
-    <FileAlignment>512</FileAlignment>
     <TargetFrameworks>net45;net47;net472;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <UseWPF>True</UseWPF>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;WPF</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;WPF</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
     <SignAssembly>true</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
     <AssemblyOriginatorKeyFile>Properties\strongname.snk</AssemblyOriginatorKeyFile>
     <Authors>Thomas Levesque, KsWare</Authors>
     <Product>XamlAnimatedGif.Wpf</Product>
@@ -49,10 +20,6 @@
     <EmbeddedResource Remove="_ReSharper.Caches\**" />
     <None Remove="_ReSharper.Caches\**" />
     <Page Remove="_ReSharper.Caches\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="XamlAnimatedGif.Wpf.StrongName - Kopie.nuspec" />
-    <None Remove="XamlAnimatedGif.Wpf.StrongName.nuspec" />
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
