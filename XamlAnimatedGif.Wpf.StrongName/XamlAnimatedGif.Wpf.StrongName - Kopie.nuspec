@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>KsWare.XamlAnimatedGif.Wpf.StrongName</id>
+    <title>XAML Animated GIF</title>
+    <version>$version$</version>
+    <summary>A simple library to display animated GIF images in XAML applications</summary>
+    <description>A simple library to display animated GIF images in XAML applications. Supported platforms: WPF (4.5 and later)</description>
+    <authors>Thomas Levesque, KsWare</authors>
+    <owners>KsWare</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>https://github.com/KsWare/XamlAnimatedGif</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/KsWare/XamlAnimatedGif/master/NuGet/XamlAnimatedGif-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+        See version history on GitHub: https://github.com/KsWare/XamlAnimatedGif/wiki/Version-history
+    </releaseNotes>
+    <tags>xaml animated gif wpf</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net45" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net45" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework="net45"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <group targetFramework="net45">
+      </group>
+    </dependencies>
+  </metadata>
+</package>
