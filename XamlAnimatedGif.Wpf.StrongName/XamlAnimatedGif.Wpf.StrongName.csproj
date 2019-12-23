@@ -14,6 +14,8 @@
     <PackageTags>xaml animated gif wpf</PackageTags>
     <PackageReleaseNotes>See version history on GitHub: https://github.com/KsWare/XamlAnimatedGif/wiki/Version-history</PackageReleaseNotes>
     <Version>0.0.0</Version>
+    <RootNamespace>XamlAnimatedGif</RootNamespace>
+    <AssemblyName>XamlAnimatedGif</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="_ReSharper.Caches\**" />
