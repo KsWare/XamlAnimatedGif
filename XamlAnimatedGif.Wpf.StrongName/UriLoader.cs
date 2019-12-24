@@ -12,7 +12,7 @@ using TaskEx = System.Threading.Tasks.Task;
 
 namespace XamlAnimatedGif
 {
-    public static class UriLoader
+	partial class UriLoader
     {
         private static Task<Stream> GetStreamFromUriCoreAsync(Uri uri)
         {

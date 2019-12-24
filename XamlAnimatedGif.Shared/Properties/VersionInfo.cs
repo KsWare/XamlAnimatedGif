@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿#if(!SDKPROJECT)
+using System.Reflection;
 using XamlAnimatedGif.Properties;
 
 [assembly: AssemblyVersion(VersionInfo.Version)]
@@ -13,3 +14,4 @@ namespace XamlAnimatedGif.Properties
         public const string PreRelease = "";
     }
 }
+#endif

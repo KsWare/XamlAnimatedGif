@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFrameworks>net45;net47;net472;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
     <UseWPF>True</UseWPF>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Properties\strongname.snk</AssemblyOriginatorKeyFile>
@@ -16,6 +16,7 @@
     <Version>0.0.0</Version>
     <RootNamespace>XamlAnimatedGif</RootNamespace>
     <AssemblyName>XamlAnimatedGif</AssemblyName>
+    <DefineConstants>TRACE;WPF;SDKPROJECT</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="_ReSharper.Caches\**" />
@@ -23,6 +24,10 @@
     <None Remove="_ReSharper.Caches\**" />
     <Page Remove="_ReSharper.Caches\**" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45'">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <Import Project="..\XamlAnimatedGif.Shared\XamlAnimatedGif.Shared.projitems" Label="Shared" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
